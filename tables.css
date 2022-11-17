@@ -1,0 +1,21 @@
+.row td{
+    border: 1px solid rgb(183, 98, 98);
+    padding: 10px;
+    text-align: center;
+}
+.row th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: aqua;
+    color: white;
+}
+.row{
+    margin-right:auto;
+    margin-left:auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+.row tr:hover{
+      background-color: #ddd;
+}
