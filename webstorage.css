@@ -1,0 +1,44 @@
+body{
+    background-image:url("/home/asplap3259/Downloads/images.jpeg")
+}
+form{
+    border: 3px solid black;
+    width: 400px;
+    height: 300px;
+    margin-left: 40%;
+    background-color: #83aca9;
+    
+}
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 10%;
+    padding: 1em;
+  }
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 150px;
+    margin-top: 30px;
+  }button:hover {
+    opacity: 0.8;
+  }
+  label{
+    margin-left: 20px;
+    display: inline-block;
+    text-align: right;
+    width: 90px;
+  }
+  h1{
+    text-align: center;
+    margin-top: 10%;
+  }
