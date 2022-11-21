@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+    <style>
+        input:invalid{
+            border:3px solid tomato;
+            
+        }
+        input:valid{
+            border: 3px solid rgb(111, 201, 66);
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <a href="login.html">login</a>
+    </div>
+    <div id="bold">
+        <p>Welcome to Signup</p>
+    </div>
+    <div>
+        <img src="images.jpg" alt="">
+    </div>
+    <form action="login.html">
+        <div>
+        <label for="fname"><b>FIRST NAME</b></label>
+        <input type="text" id="fname" name="text" placeholder="enter your firstname"  size="15" pattern="*[a-z,A-Z]" required>
+        <label for="lname"><b>LAST NAME</b></label>
+        <input type="text" id="lname" name="text" placeholder="enter your lastname"  pattern="[a-zA-Z]{5,9}" required></div>
+        <div>
+        <label for="mail"><b>EMAIL</b></label>
+        <input type="email" placeholder="enter your mail" required >
+        <label for="dob"><b>D.O.B</b></label>
+        <input type="date"></div>
+        <div>
+        <label for="uname"><b>USER NAME</b></label>
+        <input type="text" pattern="[a-z]{4,8}" required></div>
+        <div>
+        <label for="pass"><b>password</b></label>
+        <input type="password" min="8" required ></div>
+        <div>
+        <button>sumbit</button>
+        </div>
+        <p class="row">already have an account?<a href="login.html">login</a></p>
+    </form>
+</body>
+</html>

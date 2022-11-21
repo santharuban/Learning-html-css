@@ -1,0 +1,81 @@
+body{
+    background-color: rgba(161, 161, 145, 0.982);
+
+}
+form{
+    border: 2px solid black;
+    height: 600px;
+    width: 750px;
+    margin-left:28%;
+    margin-top: 2%;
+    background-color: rgb(173, 182, 179);
+    
+}
+label{
+    margin-left: 20px;
+    display: inline-block;
+    text-align: right;
+    width: 90px;
+    padding: 5px;
+    margin-top: 10%;
+}
+label:focus-within{
+    font-weight: bold;
+}
+button{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+input{
+    width: 20%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 5%;
+    padding: 1em;
+}
+input:focus{
+    background-color: rgb(156, 205, 195);
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    box-shadow: 2px 2px 5px #eceae9;
+}
+p{
+    font-size: x-large;
+    text-align: center;
+}
+img{
+    margin-left: 43%;
+}
+/*class selector*/
+.row{
+    color: rgb(0, 0, 0);
+}
+/* id selector*/
+#bold{
+    text-align: center;
+    font-weight: bold;
+}
+/*attribute selector*/
+a[href="login.html"]{
+    color:#203c91;
+    font-size: x-large;
+    text-decoration: none;
+}
+.box{
+    display:flex;
+    flex-direction: row-reverse;
+    border: 1px;
+}
